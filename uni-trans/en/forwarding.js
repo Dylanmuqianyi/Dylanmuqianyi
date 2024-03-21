@@ -1,0 +1,17 @@
+export default {
+    transfer_order: 'Transfer order',
+    send_to: 'Send to',
+    warehouse_address: 'Warehouse Address',
+    tracking_number: 'Tracking Number',
+    sent_info_desc_1: 'Information of your parcel sent to',
+    sent_info_desc_2: 'warehouse',
+    tracking_number_placeholder: 'Please enter the tracking number',
+    status: 'Status',
+    forwarding_successful: 'Transfer order submitted successfully',
+    copy_address: 'Copy Address ',
+    query_express: 'Query express delivery',
+    ask_sender: 'You can ask the sender',
+    enter_package_remarks: 'Please enter the package remarks',
+    add_order_number: 'Add the courier order number',
+    logistics_details: 'Logistics Details',
+};

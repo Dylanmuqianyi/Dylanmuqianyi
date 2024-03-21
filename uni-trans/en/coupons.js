@@ -1,0 +1,18 @@
+export default {
+    coupon: 'Coupon',
+    exchange: 'Exchange',
+    available: 'Available',
+    used: 'Used',
+    expired: 'Expired',
+    no_threshold: 'No threshold',
+    limited_more: 'Min . fee >',
+    limited_use: 'Freight',
+    coupon_empty_tip: `You don't have the coupon yet`,
+    coupon_2: ' Coupon',
+    use_now: 'Use now',
+    redeem_code_placeholder: 'Please enter redeem code',
+    exchange_coupon: 'Exchange Coupon',
+    successful_exchange: 'Successful exchange',
+    details: 'Details',
+    charged_to_your_account: 'The amount has been charged to your account',
+};

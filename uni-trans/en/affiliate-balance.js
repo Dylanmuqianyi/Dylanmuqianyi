@@ -1,0 +1,16 @@
+export default {
+    affiliates_balance: 'Affiliates Balance',
+    account: 'Account',
+    collection_setting: 'Setting',
+    claimable_bonus: 'Claimable Bonus',
+    collection_type: 'Collection type',
+    bank_card: 'Bank card',
+    establish_account: 'Please establish your collection account first',
+    binding_card: 'Binding card',
+    branch_name: 'Name of Branch',
+    bank_card_number: 'Bank card number',
+    account_name: 'Account name',
+    modify_card: 'Modify card',
+    maximum_withdrawal_amount: 'The maximum withdrawal amount is',
+    enter_remarks: 'Please enter the remarks',
+};

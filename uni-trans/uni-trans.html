@@ -1,0 +1,144 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<!-- 使用说明
+    vscode 下载插件：Live server
+    安装包文件加载到vscode工作区
+    CTRL-SHIFT-P 或者 鼠标右键 Open with Live Server
+    即可开始操作翻译
+ -->
+<div>可打开浏览器控制台查看结果</div>
+<button onclick="doTrans()">点击开始翻译下载</button>
+
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./md5.js"></script>
+
+<script type="module">
+    /**
+     * 从百度翻译api获取翻译结果  
+     * @param {*} keysArr 翻译文件key数组
+     * @param {*} valueArr 翻译文件value数组
+     * @param {*} filename 导出文件名
+     * @param {*} transStrArr 当前文件的翻译结果数组
+     */
+    import lang from './en/index.js'
+    console.log(lang)
+
+    // 中文数据
+    const fromLang = 'en';
+    const toLang = 'spa';
+
+    window.doTrans = async function doTrans() {
+      for (const j in lang) {
+        let valueArr = Object.values(lang[j])
+        let keysArr = Object.keys(lang[j])
+        await transStr(keysArr, valueArr, j)
+      }
+    }
+
+    function transStr(keysArr, valueArr, fileName) {
+      return new Promise((resolve, reject) => {
+        const filename = fileName
+        let transStrArr = []
+
+        // 整理语言文件
+        function chunkArray(myArray, chunkSize) {
+          let index = 0;
+          const arrayLength = myArray.length;
+          const tempArray = [];
+          
+          for (index = 0; index < arrayLength; index += chunkSize) {
+              const myChunk = myArray.slice(index, index + chunkSize);
+              tempArray.push(myChunk);
+          }
+          
+          return tempArray;
+        }
+
+        const result = chunkArray(valueArr, 10);
+
+        // 百度翻译
+        function trans(valueString) {
+          var appid = '20240129001953506';      // 账号APP ID
+          var key = 'KDS3UE3fsp1U0cC3Wq9W';     // 账号密钥
+          var salt = (new Date).getTime();
+          var query = valueString;
+          // 多个query可以用\n连接  如 query='apple\norange\nbanana\npear'
+          var from = fromLang;
+          var to = toLang;
+          var str1 = appid + query + salt +key;
+          var sign = MD5(str1);
+          $.ajax({
+              url: 'http://api.fanyi.baidu.com/api/trans/vip/translate',
+              type: 'get',
+              dataType: 'jsonp',
+              data: {
+                  q: query,
+                  appid: appid,
+                  salt: salt,
+                  from: from,
+                  to: to,
+                  sign: sign
+              },
+              success: function (data) {
+                  console.log('trans:', data);
+                  transArr(data)
+              } 
+          });
+        }
+
+        // 翻译结果整理为数组
+        function transArr(data) {
+            let result = data.trans_result
+            for (let u in result) {
+                let str = result[u].dst
+                transStrArr.push(str)
+            }
+        }
+        
+        // 定时循环翻译
+        let i = 0;
+        const intervalId = setInterval(() => {
+            if (i >= result.length) {
+                clearInterval(intervalId);
+                console.log('result:', fileName, transStrArr);
+                resultDown()
+                resolve()
+                return;
+            }
+
+            const str = result[i].join('\n');
+            trans(str);
+
+            i++;
+        }, 1000);
+
+
+        // 生成文件
+        let downloadObj = {}
+        function resultDown() {
+            for (let i in keysArr) {
+                downloadObj[String(keysArr[i])] = transStrArr[i]
+            }
+
+            let downloadData = Object.entries(downloadObj).map(([key, value]) => `${JSON.stringify(key)}: ${JSON.stringify(value)},\n`).join('')
+            downloadFile(`export default {${downloadData}}`, `${filename}.js`);
+        }
+
+        // 下载
+        function downloadFile(data, filename) {
+            const blob = new Blob([data], { type: 'text/javascript' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    })
+    }
+</script>
+</body>

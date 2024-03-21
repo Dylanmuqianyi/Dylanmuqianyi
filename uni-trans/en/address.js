@@ -1,0 +1,17 @@
+export default {
+    address_empty_tip: 'You have not added the shipping address.',
+    default_address: 'Default',
+    add_address: 'Add address',
+    name: 'Name',
+    first_name: 'First name',
+    last_name: 'Last name',
+    country: 'Country',
+    province: 'Province',
+    city: 'City',
+    street_address: 'Street address',
+    street_address_placeholder:'enter apartment number, street/road address, etc.',
+    zip_code: 'Zip code',
+    phone_no: 'Phone No.',
+    default_address_2: 'Default Address',
+    sure_to_delete_addr: 'Sure delete the address?',
+};
