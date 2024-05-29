@@ -33,7 +33,7 @@
 <script type="module">
     import en from './en.js';
     // 翻译数据
-    const fromLang = 'en';               // 翻译由来
+    const fromLang = 'en';               // 翻译由来 //Baidu翻译语言字段简称
     const toLang = 'it';                // 翻译目标
     $("#target-lang").text(toLang)
 
@@ -42,8 +42,8 @@
 
     // 百度翻译
     function trans(valueString) {
-        var appid = '20230714001744235';
-        var key = 'JmgceVV92EIUDdOg6NE_';
+        var appid = '';
+        var key = '';
         var salt = (new Date).getTime();
         var query = valueString;
         // 多个query可以用\n连接  如 query='apple\norange\nbanana\npear'
