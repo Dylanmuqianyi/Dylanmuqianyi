@@ -4,6 +4,6 @@ export default {
     manual_messages: 'Manual Messages',
     unread: 'Unread',
     read: 'Read',
-    sent_by_hagobuy:
-        'This email is automatically sent by the Hagobuy. please do not reply directly!',
+    sent_by_Kilyimall:
+        'This email is automatically sent by the Kilyimall. please do not reply directly!',
 };

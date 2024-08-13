@@ -4,7 +4,7 @@ export default {
     enter_account: 'Please enter account',
     enter_password: 'Please enter your password',
     enter_captcha: 'Please enter your captcha',
-    welcome: 'Hello, welcome to HagoBuy',
+    welcome: 'Hello, welcome to Kilyimall',
     no_account: 'No account, ',
     register_now: 'register now',
 
@@ -12,17 +12,17 @@ export default {
     sign_up: 'Sign Up',
     select_country: 'Select Country',
     enter_user_name: 'Please enter user name',
-    registration_protocol: 'HagoBuy User registration protocol',
+    registration_protocol: 'Kilyimall User registration protocol',
     and: 'and',
     privacy_statement: 'Privacy Statement',
     registration_successful: 'Registration Successful',
     check_agreement_first: 'Please check the user agreement first',
-    welcome_register: 'Hello, welcome to register on HagoBuy',
+    welcome_register: 'Hello, welcome to register on Kilyimall',
     email_placeholder: 'Email (Please fill in the actual available email box)',
     password_placeholde:
         'Please enter a combination of letters and numbers in 6-12 digits',
     check_email_to_activate_account:
-        'Please check the email and open the link to activate your account on Hagobuy',
+        'Please check the email and open the link to activate your account on Kilyimall',
 
     // 忘记密码
     send: 'Send',

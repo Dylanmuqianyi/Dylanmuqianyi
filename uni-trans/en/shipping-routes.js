@@ -22,7 +22,7 @@ export default {
     progress_title_3:
         'As of today, check the packages in the delivery period, The logistics track shows the package data in transit and waiting to be picked up.',
     not_delivered: 'Not delivered yet',
-    provided_by: 'The data was provided by Hagobuy.com',
+    provided_by: 'The data was provided by Kilyimall.com',
     select_date_range: 'Select date range',
     select_end_date: 'Select an end date',
     parcel_restriction: 'Parcel Restriction',

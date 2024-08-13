@@ -1,16 +1,8 @@
-/*
- * @Author: zhangjm zjm
- * @Date: 2023-11-06 15:48:01
- * @LastEditors: zhangjm zjm
- * @LastEditTime: 2023-12-01 17:10:07
- * @FilePath: \hagobuy_uniapp\i18n\en\warehouse.js
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 export default {
     volume: 'Volume',
     rehearsal_packing: 'Rehearsal Packing',
     remove_packaging_tip:
-        'click this button means to check the weight and volume that are removed packaging. However, Hagobuy does not offer this data for products that are with only little packaging since the difference will not be large. Please tick whether to remove packaging/tags for these items on the Parcel Submission page.',
+        'click this button means to check the weight and volume that are removed packaging. However, Kilyimall does not offer this data for products that are with only little packaging since the difference will not be large. Please tick whether to remove packaging/tags for these items on the Parcel Submission page.',
     stored_time: 'Stored Time',
     remove_packaging: 'Remove Packaging',
     weight: 'Weight',
@@ -28,7 +20,7 @@ export default {
     reward: 'Reward',
     rehearsal_tip_title: 'Tip',
     rehearsal_tip_content:
-        'The Hagobuy pre-packaging service is an additional storage service that costs 20 yuan per time. This service can help you pre-package the items to be sent as required. Pre-packaging provides you with accurate package volume/size and accurate weight. We will complete it for you within 24 hours. Would you like to continue?',
+        'The Kilyimall pre-packaging service is an additional storage service that costs 20 yuan per time. This service can help you pre-package the items to be sent as required. Pre-packaging provides you with accurate package volume/size and accurate weight. We will complete it for you within 24 hours. Would you like to continue?',
     rehearsal_never_tip: 'No more reminders in the future',
     choose:"Choose",
     

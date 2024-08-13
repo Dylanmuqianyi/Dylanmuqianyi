@@ -9,7 +9,7 @@ export default {
         'A high-security password can make the account more secure. It is recommended that you regularly change the password, and set a password that contains numbers and letters and is longer than 6 digits.',
     payment_password: 'Payment password',
     payment_password_desc:
-        'The password required to be entered when using the Hagobuy balance for payment, and the payment password is set to ensure payment security.',
+        'The password required to be entered when using the Kilyimall balance for payment, and the payment password is set to ensure payment security.',
     recently_landed: 'Recently landed',
     view_location_and_ip: 'View the login time, location and IP of the account',
     check_records: 'Check the records',
@@ -26,8 +26,8 @@ export default {
     activate_verification_content: 'To protect your account security, please verify your email.',
     to_activate: 'To verify',
     activate_email_toast: 'Click Send email to verify your email',
-    activate_email_tip1: 'This email is automatically sent by the HAGOBUY system, please do not reply directly!',
-    activate_email_tip2: 'The language of this email is set by HAGOBUY user setting or corresponds the website language while placing the order.',
+    activate_email_tip1: 'This email is automatically sent by the Kilyimall system, please do not reply directly!',
+    activate_email_tip2: 'The language of this email is set by Kilyimall user setting or corresponds the website language while placing the order.',
 
     // 修改密码
     enter_password: 'Please enter password',

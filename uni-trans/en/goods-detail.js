@@ -1,11 +1,3 @@
-/*
- * @Author: DESKTOP-00G5TUU\hago zjm
- * @Date: 2023-11-06 15:48:01
- * @LastEditors: zhangjm zjm
- * @LastEditTime: 2023-12-07 17:35:25
- * @FilePath: \hagobuy_uniapp\i18n\en\goods-detail.js
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 export default {
     product_details: 'Product details',
     after_sales_service: 'After Sales Service',
@@ -21,15 +13,15 @@ export default {
     available: 'Available',
     remark_placeholder: `Write a message ONLY when you have special requirements regarding this order's purchasing.`,
     purchase_tip:
-        'HagoBuy will only purchase for you according to the link you enter. If you have any doubts regarding your orders, reach out to our online service.',
+        'Kilyimall will only purchase for you according to the link you enter. If you have any doubts regarding your orders, reach out to our online service.',
     fav_successful: 'Collection successful',
     please_select_sku: 'Please select a specification',
     add_successful: 'Added successfully',
-    note_1: 'The goods you purchased will be delivered to the Hagobuy warehouse . When the goods arrive at the warehouse, we will check and take photos for you.',
+    note_1: 'The goods you purchased will be delivered to the Kilyimall warehouse . When the goods arrive at the warehouse, we will check and take photos for you.',
     note_2: 'You can view and manage items in the warehouse.',
-    note_3: 'If you are not satisfied with the goods after they arrive at the HagoBuy warehouse, you can apply for a return within 5 days. Our buyer will negotiate with the seller on behalf of you to deal with after-sale issues. ',
-    seller_to_hagobuy: 'From the seller\n to the Hagobuy',
-    hagobuy_to_you: 'From Hagobuy\n to You',
+    note_3: 'If you are not satisfied with the goods after they arrive at the Kilyimall warehouse, you can apply for a return within 5 days. Our buyer will negotiate with the seller on behalf of you to deal with after-sale issues. ',
+    seller_to_Kilyimall: 'From the seller\n to the Kilyimall',
+    Kilyimall_to_you: 'From Kilyimall\n to You',
     pay_for_order: 'Pay for order',
     pay_for_package: 'Pay for package',
     delivery_of_parcels: 'Delivery of parcels',
@@ -69,6 +61,6 @@ export default {
 
     qcPic: 'QC Picture ',
     Source_product: "Source of the product",
-	Hagobuyto_purchase: 'Hagobuy can entrust buyers to purchase for you',
+	Kilyimallto_purchase: 'Kilyimall can entrust buyers to purchase for you',
 	find_similarity: 'Find similarity',
 };

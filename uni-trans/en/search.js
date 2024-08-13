@@ -1,11 +1,3 @@
-/*
- * @Author: zhangjm zjm
- * @Date: 2023-11-06 15:48:01
- * @LastEditors: zhangjm zjm
- * @LastEditTime: 2023-12-15 18:14:59
- * @FilePath: \hagobuy_uniapp\i18n\en\search.js
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 export default {
     search_history: 'Search History',
     // 搜索结果页

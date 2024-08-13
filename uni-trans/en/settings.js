@@ -35,7 +35,7 @@ export default {
     reason_5: 'Other reasons',
     enter_reason: 'Enter the reason for closing your account',
 
-    // 关于HagoBuy
+    // 关于Kilyimall
     service_terms: 'Service Terms',
     privacy_policy: 'Privacy Policy',
 
