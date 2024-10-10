@@ -1,5 +1,11 @@
 ### uni-trans/www-trans
 
+<div align="center">
+  <img alt="Baidu-trans Logo" width="120" height="120" src="./images/trans.png">
+  <h1>Baidu-trans</h1>
+  <span> English | <a href="./README.md">中文</a></span>
+</div>
+
 #### Introduction
 
 ```js
@@ -32,6 +38,16 @@ Automatically iterates over the translation object, translates in batches, and d
 1. The uni-trans method is used in modular development, where each language folder represents a language, and each module's language is stored in a separate JS file within that folder.
 2. The www-trans method consolidates all content for a single language into one JS file, where each file represents a different language.
 ```
+
+### Baidu translation api
+``js
+1. [Translate api](https://fanyi-api.baidu.com/api/trans/vip/translate)
+2. [Translate documents](https://api.fanyi.baidu.com/doc/21)
+3. [Translation api test](https://fanyi-api.baidu.com/api/trans/product/index)
+```
+
+### Other api recommendations
+[deepl translation api:](https://www.deepl.com/zh/products/api)
 
 ### Notes
 

@@ -1,5 +1,11 @@
 ### uni-trans/www-trans
 
+<div align="center">
+  <img alt="Baidu-trans Logo" width="120" height="120" src="./images/trans.png">
+  <h1>Baidu-trans</h1>
+  <span><a href="./README.EN.md">English</a> | 中文</span>
+</div>
+
 #### 介绍
 ```js
 这是一个基于百度翻译自动化翻译的JavaScript程序
@@ -26,6 +32,16 @@
 2. www-trans 方式是将所有的同一种语言的内容放在一个js文件里面，每个文件代表一种语言
 
 ```
+
+### 百度翻译api
+```js
+1. [翻译api](https://fanyi-api.baidu.com/api/trans/vip/translate)
+2. [翻译文档](https://api.fanyi.baidu.com/doc/21)
+3. [翻译api测试](https://fanyi-api.baidu.com/api/trans/product/index)
+```
+
+### 其他api推荐
+[deepl翻译api：](https://www.deepl.com/zh/products/api)
 
 ### 注意事项
 

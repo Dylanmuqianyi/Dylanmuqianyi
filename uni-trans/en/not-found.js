@@ -1,11 +1,3 @@
-/*
- * @Author: DESKTOP-00G5TUU\Kilyi zjm
- * @Date: 2023-11-02 17:47:33
- * @LastEditors: DESKTOP-00G5TUU\Kilyi zjm
- * @LastEditTime: 2023-11-06 16:19:03
- * @FilePath: \Kilyimall_uniapp\i18n\en\not-found.js
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 export default {
 	link_tip: 'The links you submit on this page belong to third-party product links (such as: Xianyu, XiaoHongshu, Bilibili, yupoo, etc.), Kilyimall can only help you find the linked merchants for product consultation, purchase and arrange third-party logistics delivery services. Kilyimall is unable to identify the quality and authenticity of goods and requires you to bear the relevant risk before placing an order.',
 	bank_link_title: 'Fill in the product link',
