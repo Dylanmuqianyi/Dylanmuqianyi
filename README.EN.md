@@ -39,6 +39,14 @@ Automatically iterates over the translation object, translates in batches, and d
 2. The www-trans method consolidates all content for a single language into one JS file, where each file represents a different language.
 ```
 
+### Translation review tool
+
+```js
+// diff.html
+Used to check for errors in the field names of two translated files during development.
+
+```
+
 ### Baidu translation api
 
 1. [Translate api](https://fanyi-api.baidu.com/api/trans/vip/translate)

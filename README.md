@@ -38,6 +38,13 @@
 
 ```
 
+### 翻译审查工具
+
+```js
+// diff.html
+用于开发时检查两个翻译文件字段名是否存在纰漏;
+```
+
 ### 百度翻译 api
 
 1. [翻译 api](https://fanyi-api.baidu.com/api/trans/vip/translate)
