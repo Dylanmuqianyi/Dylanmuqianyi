@@ -40,14 +40,14 @@ Automatically iterates over the translation object, translates in batches, and d
 ```
 
 ### Baidu translation api
-``js
+
 1. [Translate api](https://fanyi-api.baidu.com/api/trans/vip/translate)
 2. [Translate documents](https://api.fanyi.baidu.com/doc/21)
 3. [Translation api test](https://fanyi-api.baidu.com/api/trans/product/index)
-```
 
 ### Other api recommendations
-[deepl translation api:](https://www.deepl.com/zh/products/api)
+
+[deepl translation api](https://www.deepl.com/zh/products/api)
 
 ### Notes
 

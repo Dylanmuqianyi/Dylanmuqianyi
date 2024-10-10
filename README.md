@@ -7,10 +7,13 @@
 </div>
 
 #### 介绍
+
 ```js
-这是一个基于百度翻译自动化翻译的JavaScript程序
+这是一个基于百度翻译自动化翻译的JavaScript程序;
 ```
+
 #### 使用说明
+
 ```js
 使用方法：
 1. 注册百度翻译开发者账号，并获取appid和密钥
@@ -21,30 +24,31 @@
 ```
 
 #### 简述
+
 ```js
 自动读取en.js中想要翻译的字段，并自动生成对应的翻译文件
 自动遍历翻译文件对象，批量翻译，自动下载
 ```
 
 ### 两种不同的文件格式的读取
+
 ```js
 1. uni-trans 方式是模块化开发时，每个语言文件夹代表一种语言，里面是每一个模块的语言js文件
 2. www-trans 方式是将所有的同一种语言的内容放在一个js文件里面，每个文件代表一种语言
 
 ```
 
-### 百度翻译api
-```js
-1. [翻译api](https://fanyi-api.baidu.com/api/trans/vip/translate)
-2. [翻译文档](https://api.fanyi.baidu.com/doc/21)
-3. [翻译api测试](https://fanyi-api.baidu.com/api/trans/product/index)
-```
+### 百度翻译 api
 
-### 其他api推荐
-[deepl翻译api：](https://www.deepl.com/zh/products/api)
+1. [翻译 api](https://fanyi-api.baidu.com/api/trans/vip/translate)
+2. [翻译文档](https://api.fanyi.baidu.com/doc/21)
+3. [翻译 api 测试](https://fanyi-api.baidu.com/api/trans/product/index)
+
+### 其他 api 推荐
+
+[deepl 翻译 api](https://www.deepl.com/zh/products/api)
 
 ### 注意事项
 
 - 亚洲国家为了翻译更加准确，使用中文去翻译
 - 其他地区用英文翻译更加准确
-
